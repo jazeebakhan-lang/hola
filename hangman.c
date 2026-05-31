@@ -51,6 +51,48 @@ if (found == 0) {
 
    printf("\n");
 
+  if (wrong == 1) {
+    printf("  |\n");
+    printf("  |\n");
+    printf("  |\n");
+}
+else if (wrong == 2) {
+    printf(" _____\n");
+    printf("  |\n");
+    printf("  |\n");
+    printf("  |\n");
+}
+
+else if (wrong == 3) {
+    printf(" _____\n");
+    printf("    |\n");
+    printf("    O\n");
+    printf("    |\n");
+    printf("    |\n");
+}
+else if (wrong == 4) {
+    printf(" _____\n");
+    printf("    |\n");
+    printf("    O\n");
+    printf("   /|\n");
+    printf("    |\n");
+}
+else if (wrong == 5) {
+    printf(" _____\n");
+    printf("    |\n");
+    printf("    O\n");
+    printf("   /|\\\n");
+    printf("    |\n");
+}
+else if (wrong == 6) {
+    printf(" _____\n");
+    printf("    |\n");
+    printf("    O\n");
+    printf("   /|\\\n");
+    printf("    |\n");
+    printf("   / \\\n");
+}
+
 }
 
 int won = 1;
