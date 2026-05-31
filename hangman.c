@@ -9,6 +9,11 @@ int main (){
     int i;
     int wrong = 0;
     char guess;
+    char playAgain = 'x';
+
+    while (playAgain != 'n'){
+
+      wrong = 0;
 
       for (i = 0; i < length; i++){
     guessed[i]= '_';
@@ -60,10 +65,15 @@ int won = 1;
     printf("You win!!");
     return 0;
 }
+
 }
 
 
 printf("You lose! the word was %s\n", word);
-return 0;
 
+printf("play again? y/n: \n");
+scanf(" %c", &playAgain);
+
+    }
+return 0;
 }
